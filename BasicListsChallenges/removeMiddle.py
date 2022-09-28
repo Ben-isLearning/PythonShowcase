@@ -9,8 +9,8 @@
 # because elements at indices 1, 2, and 3 have been removed:
 
 # Write your function here
-def remove_middle(list, starting_index, ending_index):
-    return list[:starting_index] + list[ending_index+1:]
+def remove_middle(lst, starting_index, ending_index):
+    return lst[:starting_index] + lst[ending_index+1:]
 
 
 # Uncomment the line below when your function is done
